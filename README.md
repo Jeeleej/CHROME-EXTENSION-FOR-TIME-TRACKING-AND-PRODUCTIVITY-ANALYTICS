@@ -31,11 +31,11 @@ MENTOR: NEELA SANTHOSH KUMAR
 - Go to chrome://extensions
 - Enable Developer Mode
 
-# Output
-
-- Click Load Unpacked and select the extension folder
-
 ## Use Cases
 - Improve productivity by identifying time-wasting sites
 - Set personal browsing goals
 - Monitor daily/weekly screen time trends
+
+
+# Output
+![Image](https://github.com/user-attachments/assets/2b21f9e3-4ee6-4390-816f-68d575e7d25d)
