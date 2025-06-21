@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Website Time Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Website Time Tracker</h1>
+    
+    <div class="tabs">
+      <button class="tab active" data-range="today">Today</button>
+      <button class="tab" data-range="week">This Week</button>
+      <button class="tab" data-range="all">All Time</button>
+    </div>
+    
+    <div class="summary">
+      <div>Total time: <span id="total-time">0h 0m 0s</span></div>
+      <div>Top site: <span id="top-site">-</span></div>
+    </div>
+    
+    <div class="domain-list" id="domain-list">
+      <div class="domain-list-header">
+        <span>Website</span>
+        <span>Time Spent</span>
+      </div>
+      <!-- Domain items will be inserted here -->
+    </div>
+    
+    <div class="chart-container">
+      <canvas id="timeChart"></canvas>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
