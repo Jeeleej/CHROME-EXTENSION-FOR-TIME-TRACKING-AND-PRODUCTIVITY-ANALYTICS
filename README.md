@@ -30,6 +30,9 @@ MENTOR: NEELA SANTHOSH KUMAR
 - Clone/download this repository
 - Go to chrome://extensions
 - Enable Developer Mode
+
+# Output
+
 - Click Load Unpacked and select the extension folder
 
 ## Use Cases
